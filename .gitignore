@@ -21,3 +21,8 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary files
+/tmp/
+
+# Note: docs/ folder is NOT ignored - it contains generated static files for GitHub Pages
