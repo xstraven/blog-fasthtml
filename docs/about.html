@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn more about me and my work with web technologies">
+    <meta property="og:title" content="About - Personal Website">
+    <meta property="og:description" content="Learn more about me and my work with web technologies">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xstraven.github.io/blog-fasthtml/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="About - Personal Website">
+    <meta name="twitter:description" content="Learn more about me and my work with web technologies">
+    <title>About - Personal Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        
+        header {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        
+        nav a:hover, nav a:focus {
+            background-color: #e7f3ff;
+            outline: 2px solid #007bff;
+        }
+        
+        nav a[aria-current="page"] {
+            background-color: #007bff;
+            color: white;
+        }
+        
+        main {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin: 30px 0 15px 0;
+            font-size: 1.8rem;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        footer {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            color: #666;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 4px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            header, main, footer {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav role="navigation" aria-label="Main navigation">
+        <ul>
+          <li>
+<a href="index.html">Home</a>          </li>
+          <li>
+<a href="about.html" aria-current="page">About</a>          </li>
+        </ul>
+      </nav>
+    </header>
+<main role="main">      <div>
+        <h1>About Me</h1>
+        <p>Hi there! I&#x27;m a developer passionate about building simple, effective web solutions.</p>
+        <h2>What I Do</h2>
+        <p>I enjoy exploring modern web technologies and creating tools that make development easier. This site is a perfect example - using FastHTML to generate static sites with minimal complexity.</p>
+        <h2>Technologies I Love</h2>
+        <ul>
+          <li>Python for backend development and automation</li>
+          <li>FastHTML for rapid web development</li>
+          <li>Static site generators for fast, secure websites</li>
+          <li>GitHub Pages for simple, free hosting</li>
+        </ul>
+        <h2>Get In Touch</h2>
+        <p>Feel free to reach out if you&#x27;d like to collaborate on a project or just chat about technology!</p>
+        <div classname="highlight">
+          <p>💡 This entire website is generated from Python code using FastHTML!</p>
+        </div>
+      </div>
+</main>    <footer role="contentinfo">
+      <p>Built with FastHTML • © 2024</p>
+    </footer>
+  </body>
+</html>
